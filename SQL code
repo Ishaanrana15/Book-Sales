@@ -81,7 +81,7 @@ FROM
     orders;
 
 -- Advance Questions : 
-
+-- 1) Retrieve the total number of books sold for each genre:
 SELECT 
     books.Genre, SUM(orders.Quantity)
 FROM
